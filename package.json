@@ -1,5 +1,5 @@
 {
-  "name": "@koumoul/vjsf",
+  "name": "@NinioDev/vuetify-jsonschema-form",
   "version": "1.14.0",
   "description": "Generate forms for the vuetify UI library (vuejs) based on annotated JSON schemas.",
   "main": "dist/main.js",
@@ -35,14 +35,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/koumoul-dev/vuetify-jsonschema-form.git"
+    "url": "git+https://github.com/NinioDev/vuetify-jsonschema-form.git"
   },
   "author": "Alban Mouton <alban.mouton@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/koumoul-dev/vuetify-jsonschema-form/issues"
+    "url": "https://github.com/NinioDev/vuetify-jsonschema-form/issues"
   },
-  "homepage": "https://github.com/koumoul-dev/vuetify-jsonschema-form#readme",
+  "homepage": "https://github.com/NinioDev/vuetify-jsonschema-form#readme",
   "dependencies": {
     "@mdi/js": "^5.5.55",
     "debounce": "^1.2.0",
