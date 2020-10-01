@@ -6,11 +6,11 @@
   "scripts": {
     "lint": "eslint --ext js,vue .",
     "build": "rm -rf dist && webpack && cp lib/VJsf.css dist/main.css",
-    "prepublish": "npm run lint && npm test && npm run build && npm run doc-build",
+    "prepublish": "npm run lint && npm test && npm run build",
     "postpublish": "gh-pages-multi deploy -v -s doc/dist -t latest",
     "test": "jest",
     "test-update": "jest --updateSnapshot",
-    "doc-link": "npm link && pushd doc && npm link @koumoul/vjsf && popd",
+    "doc-link": "npm link && pushd doc && npm link @NinioDev/vuetify-jsonschema-form && popd",
     "doc-dev": "nuxt doc",
     "doc-start": "nuxt build doc && nuxt start doc",
     "doc-build": "BASE=/vuetify-jsonschema-form/latest/ nuxt generate doc"

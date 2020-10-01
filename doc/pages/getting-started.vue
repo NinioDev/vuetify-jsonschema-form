@@ -9,11 +9,11 @@
     </h2>
     <!-- eslint-disable vue/html-indent -->
     <v-sheet v-hljs dark class="codeblock">
-      <pre><code class="html">&lt;script src="https://cdn.jsdelivr.net/npm/@koumoul/vjsf@latest/dist/main.js"&gt;&lt;/script&gt;
-&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@koumoul/vjsf@latest/dist/main.css"&gt;
+      <pre><code class="html">&lt;script src="https://cdn.jsdelivr.net/npm/@NinioDev/vuetify-jsonschema-form@latest/dist/main.js"&gt;&lt;/script&gt;
+&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@NinioDev/vuetify-jsonschema-form@latest/dist/main.css"&gt;
 &lt;!-- load third-party dependencies (markdown-it, vuedraggable) --&gt;
 &lt;!-- you can also load them separately based on your needs --&gt;
-&lt;script src="https://cdn.jsdelivr.net/npm/@koumoul/vjsf@latest/dist/third-party.js"&gt;&lt;/script&gt;</code></pre>
+&lt;script src="https://cdn.jsdelivr.net/npm/@NinioDev/vuetify-jsonschema-form@latest/dist/third-party.js"&gt;&lt;/script&gt;</code></pre>
 </v-sheet>
     <v-sheet v-hljs dark class="codeblock">
       <pre><code class="javascript">Vue.component('VJsf', VJsf.default)</code></pre>
@@ -23,18 +23,18 @@
       Load from NPM
     </h2>
     <v-sheet v-hljs dark class="codeblock">
-      <pre><code class="bash">npm install --save @koumoul/vjsf</code></pre>
+      <pre><code class="bash">npm install --save @NinioDev/vuetify-jsonschema-form</code></pre>
     </v-sheet>
 
     <h3 class="title my-4">
       Import built version of the module
     </h3>
     <v-sheet v-hljs dark class="codeblock">
-      <pre><code class="javascript">import VJsf from '@koumoul/vjsf'
-import '@koumoul/vjsf/dist/main.css'
+      <pre><code class="javascript">import VJsf from '@NinioDev/vuetify-jsonschema-form'
+import '@NinioDev/vuetify-jsonschema-form/dist/main.css'
 // load third-party dependencies (markdown-it, vuedraggable)
 // you can also load them separately based on your needs
-import '@koumoul/vjsf/dist/third-party.js'
+import '@NinioDev/vuetify-jsonschema-form/dist/third-party.js'
 
 Vue.component('VJsf', VJsf)</code></pre>
     </v-sheet>
@@ -46,11 +46,11 @@ Vue.component('VJsf', VJsf)</code></pre>
       This is useful if you wish to let your build tool analyze the source code of vjsf. Particularily interesting if you use vuetify-loader.
     </p>
     <v-sheet v-hljs dark class="codeblock">
-      <pre><code class="javascript">import VJsf from '@koumoul/vjsf/lib/VJsf.js'
-import '@koumoul/vjsf/lib/VJsf.css'
+      <pre><code class="javascript">import VJsf from '@NinioDev/vuetify-jsonschema-form/lib/VJsf.js'
+import '@NinioDev/vuetify-jsonschema-form/lib/VJsf.css'
 // load third-party dependencies (markdown-it, vuedraggable)
 // you can also load them separately based on your needs
-import '@koumoul/vjsf/lib/deps/third-party.js'
+import '@NinioDev/vuetify-jsonschema-form/lib/deps/third-party.js'
 
 Vue.component('VJsf', VJsf)</code></pre>
     </v-sheet>
@@ -85,7 +85,7 @@ build: {
 vue create my-app
 cd my-app
 vue add vuetify
-npm install -g @koumoul/vjsf
+npm install -g @NinioDev/vuetify-jsonschema-form
 </code></pre>
     </v-sheet>
 
@@ -94,7 +94,7 @@ npm install -g @koumoul/vjsf
     <v-sheet v-hljs dark class="codeblock">
       <pre><code class="javascript">module.exports = {
   "transpileDependencies": [
-    "vuetify", "@koumoul/vjsf"
+    "vuetify", "@NinioDev/vuetify-jsonschema-form"
   ]
 }</code></pre>
     </v-sheet>
@@ -115,9 +115,9 @@ npm install -g @koumoul/vjsf
 &lt;/template&gt;
 
 &lt;script&gt;
-import VJsf from '@koumoul/vjsf/lib/VJsf.js'
-import '@koumoul/vjsf/lib/VJsf.css'
-import '@koumoul/vjsf/lib/deps/third-party.js'
+import VJsf from '@NinioDev/vuetify-jsonschema-form/lib/VJsf.js'
+import '@NinioDev/vuetify-jsonschema-form/lib/VJsf.css'
+import '@NinioDev/vuetify-jsonschema-form/lib/deps/third-party.js'
 
 export default {
   name: 'App',

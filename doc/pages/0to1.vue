@@ -32,7 +32,7 @@
     </p>
     <p>
       <ul>
-        <li>npm module is switched from @koumoul/vuetify-jsonschema-form to @koumoul/vjsf</li>
+        <li>npm module is switched from @koumoul/vuetify-jsonschema-form to @NinioDev/vuetify-jsonschema-form</li>
         <li>recommended component name is VJsf (so tag name is v-jsf)</li>
         <li>support for Vuetify 1 is dropped</li>
         <li>model is replaced by v-model</li>
