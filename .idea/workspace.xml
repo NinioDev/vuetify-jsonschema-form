@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="cd9d1ecf-aa54-4991-8146-556836afe9ba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mixins/Tooltip.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/mixins/Tooltip.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/VJsf.css" beforeDir="false" afterPath="$PROJECT_DIR$/lib/VJsf.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/utils/options.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils/options.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +47,7 @@
       <workItem from="1601964698027" duration="1161000" />
       <workItem from="1601965913564" duration="3355000" />
       <workItem from="1601969421818" duration="51000" />
-      <workItem from="1602142892223" duration="86000" />
+      <workItem from="1602142892223" duration="1152000" />
     </task>
     <servers />
   </component>

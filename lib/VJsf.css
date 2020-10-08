@@ -19,6 +19,11 @@
   background: linear-gradient(to top right,transparent 0,transparent calc(50% - 2.4px),#de080a 50%,transparent calc(50% + 2.4px),transparent);
 }
 
+.v-tab {
+  max-height: 48px!important;
+
+}
+
 .vjsf-date-time .v-picker.v-card {
   border-radius: 0;
 }
