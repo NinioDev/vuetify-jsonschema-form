@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd9d1ecf-aa54-4991-8146-556836afe9ba" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mixins/Tooltip.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/mixins/Tooltip.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/utils/options.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils/options.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +30,8 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2020.2.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
     <property name="vuejs.nuxt.types-notification-shown" value="true" />
   </component>
@@ -39,6 +44,11 @@
       <option name="presentableId" value="Default" />
       <updated>1601578323745</updated>
       <workItem from="1601578324836" duration="604000" />
+      <workItem from="1601964553568" duration="114000" />
+      <workItem from="1601964698027" duration="1161000" />
+      <workItem from="1601965913564" duration="3355000" />
+      <workItem from="1601969421818" duration="51000" />
+      <workItem from="1602142892223" duration="86000" />
     </task>
     <servers />
   </component>
@@ -46,9 +56,9 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="667" y="313" width="585" height="592" key="find.popup" timestamp="1601578434079">
+    <state x="667" y="313" width="585" height="801" key="find.popup" timestamp="1602142913550">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="667" y="313" width="585" height="592" key="find.popup/1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1601578434079" />
+    <state x="667" y="313" width="585" height="801" key="find.popup/1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1602142913550" />
   </component>
 </project>
